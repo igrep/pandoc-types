@@ -1,2 +1,6 @@
 packages: pandoc-types.cabal
-tests: True
+
+source-repository-package
+  type: git
+  location: https://github.com/igrep/aeson.git
+  tag: b9fdd6c9cea8138cbc6715080ac7220d44052ca7
