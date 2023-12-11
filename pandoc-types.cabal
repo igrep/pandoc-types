@@ -44,7 +44,6 @@ Library
                      Text.Pandoc.Walk
                      Text.Pandoc.Builder
                      Text.Pandoc.JSON
-                     Text.Pandoc.Arbitrary
   Other-modules:     Paths_pandoc_types
   Autogen-modules:   Paths_pandoc_types
   Build-depends:     base >= 4.5 && < 5,
@@ -56,8 +55,7 @@ Library
                      ghc-prim >= 0.2,
                      bytestring >= 0.9 && < 0.13,
                      aeson >= 0.6.2 && < 2.3,
-                     transformers >= 0.2 && < 0.7,
-                     QuickCheck >= 2.10 && < 2.15
+                     transformers >= 0.2 && < 0.7
   if !impl(ghc >= 8.0)
     Build-depends:   semigroups == 0.18.*
   ghc-options:       -Wall
